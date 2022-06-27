@@ -908,7 +908,7 @@ body {
 }
 .footer__logo {
   flex: 0 1 300px;
-  margin: 0 122px 0 0;
+  margin: 0 122px 25px 0;
 }
 .footer__logo img {
   margin: 0 0 18px 0;
@@ -966,9 +966,6 @@ body {
   color: inherit;
 }
 @media (max-width: 992px) {
-  .footer__logo {
-    margin: 0 0 25px 0;
-  }
   .footer__blocks {
     flex: 0 1 100%;
     flex-flow: wrap;
